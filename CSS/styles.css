@@ -1,0 +1,43 @@
+.container {
+    max-width: 10vh auto 0 auto;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 43px 17px grey;
+}
+
+#display {
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+}
+
+.calButton {
+    display: grid;
+    border-bottom: 1px solid purple;
+    border-left: 1px solid purple;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.calButton > div {
+    border-top: 1px solid purple;
+    border-right: 1px solid purple;
+}
+
+.calButton {
+    border: 0.5px solid purple;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#addition {
+    background-color: orange;
+    color: black;
+}
+
+.calButton:hover {
+    color: orange;
+    transition: 0.05s ease-in-out;
+}
