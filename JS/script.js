@@ -6,9 +6,9 @@ let calButton = Array.from(document.getElementsByClassName('calButton'));
 
 calButton.map( calButton => {
     calButton.addEventListener('click', (e) => {
-        console.log('clicked');
-        console.log(e);
-        console.log(e.target);
-        console.log(e.target.innerText);
+        switch(e.target.innerText){
+            default:
+                display.innerText += e.target.innerText;
+        }
     });
 });
