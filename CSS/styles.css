@@ -1,7 +1,10 @@
 .container {
-    max-width: 10vh auto 0 auto;
+    width: 388px;
+    height: 617px;
     margin: 10vh auto 0 auto;
     box-shadow: 0px 0px 43px 17px grey;
+    border-radius: 30px;
+    background-color: black;
 }
 
 #display {
@@ -14,22 +17,24 @@
 
 .calButton {
     display: grid;
-    border-bottom: 1px solid purple;
-    border-left: 1px solid purple;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .calButton > div {
-    border-top: 1px solid purple;
-    border-right: 1px solid purple;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
 }
 
 .calButton {
-    border: 0.5px solid purple;
+    border: 0.5px solid black;
     line-height: 100px;
     text-align: center;
     font-size: 25px;
     cursor: pointer;
+    width: 97px;
+    height: 102px;
 }
 
 #addition {
