@@ -37,12 +37,52 @@
     height: 102px;
 }
 
+/* Button Colors */
+.calButton:hover {
+    color: orange;
+    transition: 0.05s ease-in-out;
+}
+
+/* CA - Clear Button */
+#clear {
+    background-color: orange;
+    color: black;
+}
+
+#clear:hover{
+    color: white;
+    transition: 0.05s ease-in-out;
+}
+
+/* - Substraction Button */
+#subtraction {
+    background-color: orange;
+    color: black;
+}
+
+#subtraction:hover {
+    color: white;
+    transition: 0.05s ease-in-out;
+}
+
+/* + - Addition Button */
 #addition {
     background-color: orange;
     color: black;
 }
 
-.calButton:hover {
-    color: orange;
+#addition:hover {
+    color: white;
+    transition: 0.05s ease-in-out;
+}
+
+/* = - Equal Button */
+#equal {
+    background-color: orange;
+    color: black;
+}
+
+#equal:hover {
+    color: white;
     transition: 0.05s ease-in-out;
 }
