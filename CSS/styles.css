@@ -20,6 +20,7 @@
     border-bottom: 1px solid black;
     border-left: 1px solid black;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #808080;
 }
 
 .calButton > div {
@@ -28,24 +29,25 @@
 }
 
 .calButton {
-    border: 0.5px solid black;
+    border: 0.5px solid white;
     line-height: 100px;
     text-align: center;
     font-size: 25px;
     cursor: pointer;
     width: 97px;
     height: 102px;
+    color: white;
 }
 
 /* Button Colors */
 .calButton:hover {
-    color: orange;
+    color: black;
     transition: 0.05s ease-in-out;
 }
 
 /* CA - Clear Button */
 #clear {
-    background-color: orange;
+    background-color: #FFB800;
     color: black;
 }
 
@@ -56,7 +58,7 @@
 
 /* - Substraction Button */
 #subtraction {
-    background-color: orange;
+    background-color: #FFB800;
     color: black;
 }
 
@@ -67,7 +69,7 @@
 
 /* + - Addition Button */
 #addition {
-    background-color: orange;
+    background-color: #FFB800;
     color: black;
 }
 
@@ -78,7 +80,7 @@
 
 /* = - Equal Button */
 #equal {
-    background-color: orange;
+    background-color: #FCCD54;
     color: black;
 }
 
