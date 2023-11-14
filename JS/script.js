@@ -14,7 +14,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Function to update the display based on button clicks
     function updateDisplay(value) {
+        // The switch statement is used to perform different actions based on different conditions.
+        // A switch statement in JavaScript is giving a special set of instructions for value.
         switch (value) {
+            // 
             case 'CA':
                 displayInput.value = '';
                 break;
